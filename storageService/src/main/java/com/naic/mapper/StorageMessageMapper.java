@@ -5,5 +5,5 @@ import java.util.List;
 import com.naic.po.StorageMessage;
 
 public interface StorageMessageMapper {
-	public List<StorageMessage> findTradeMessageList();
+	public List<StorageMessage> findStorageMessageList();
 }

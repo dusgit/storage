@@ -13,12 +13,12 @@ import com.naic.po.StorageMessage;
 public class StorageMessageServiceImpl implements StorageMessageService {
 
 	@Autowired
-	private StorageMessageMapper tradeMessageMapper;
+	private StorageMessageMapper storageMessageMapper;
 	
 	@Override
 	public List<StorageMessage> send() {
 		
-		return tradeMessageMapper.findTradeMessageList();
+		return storageMessageMapper.findStorageMessageList();
 	}
 
 }
